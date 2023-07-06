@@ -1,0 +1,324 @@
+// .wrapper{
+//     width: 200px;
+//     background-color: grey;
+//     height: 50px;
+//     text-align: center;
+   
+// }
+
+// %div:hover{
+//     cursor: pointer;
+//     background-color: red;
+//     color: white;
+//     transform: scale(1.3)
+// }
+// .btn1{
+//     @extend %div;
+//     background-color: green;
+//     margin-top: 15px
+// }
+// .bnt2{
+//     @extend %div;
+//     background-color: orange;
+// }
+// .btn3{
+//     @extend %div;
+//     background-color: blue;
+// }
+
+
+
+
+
+
+header{
+    background-image: url(./Rectangle\ 96.png);
+    height: 1085px;
+    width: 1920px;
+}
+nav ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+li{
+    list-style: none;
+    margin-top: 58px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+li button{
+    background-color: green;
+    color: white;
+    line-height: 30px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    padding: 7px 10px;
+    margin-top: -40px;
+}
+.body{
+    text-align: center;
+    color: #fff;
+    margin-top: 331px;
+    .txt1{
+        font-size: 58px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+   .txt2{
+        color: #FFF;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 70px;
+        letter-spacing: 1.2px;
+   }
+   .txt3{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+   }
+   button{
+    width: 216px;
+    padding: 14px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #00D664;
+    margin-top: 39px;
+    color: #FFF;
+    font-size: 18px;
+   }
+}
+.section1{
+    width: 1920px;
+    .div{
+        width: 1248px;
+        height: 966px;
+        margin-left: 336px;
+        .txt1{
+            color: #ACACAC;
+            text-align: center;
+            font-size: 58px;
+            font-family: Mrs Saint Delafield;
+            font-weight: 400;
+            line-height: 27px;
+        }
+        .txt2{
+            color: #1E266D;
+            text-align: center;
+            font-size: 42px;
+            font-weight: 500;
+            line-height: 58px;
+        }
+        .txt3{
+            
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.54px;
+        }
+        .txt4{
+        //    margin-bottom: -30px;
+            color: #1E266D;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+        div{
+            margin-top: -700px;
+        }
+        .img{
+            margin-left: 585px;
+            width: 623px;
+            height: 714px;
+            margin-top: 46px;
+        }
+        .img1{
+            margin-top: 52px;
+        }   
+        .img2{
+            margin-top: 45px;
+        } 
+        .img3{
+            margin-top: 45px;
+        }
+    }
+}
+%img{
+    color: #1E266D;
+    font-family: Neue Haas Unica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    margin-left: 34px;
+}
+.img1_txt{
+    @extend %img;
+}
+.img2_txt{
+    @extend %img;
+   
+}
+.img3_txt{
+    @extend %img;
+}
+%img_txt{
+    width: 396px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.img1_txt2{
+   @extend %img_txt;
+}
+.img2_txt2{
+    @extend %img_txt;
+}
+.img3_txt2{
+    @extend %img_txt;
+}
+.section2{
+    width: 1920px;
+    height: 813px;
+    background-color: lightgray;
+    .submit{
+        width: 194px;
+        border-radius: 30px;
+        background: var(--green, #00D664);
+        padding: 14px 25px;
+        color: white;
+        border: none;
+        margin-top: 76px;
+        margin-left: 857px;
+    }
+    .p_katta{
+        color: #1E266D;
+        text-align: center;
+        font-family: Neue Haas Unica;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 58px;
+    }
+    .main_div{
+        display: flex;
+    }
+    .div1_div{
+        margin-left: 337px;
+    }
+    .div1{
+        width: 286px;
+        height: 292px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.10);
+        text-align: center;
+        padding-top: 38px;
+        margin-right: 30px;
+        margin-top: 72px;
+        .p1{
+            color: #1E266D;
+            margin-top: -10px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 44px;
+            letter-spacing: -0.2px;
+        }
+        .p2{
+            width: 221px;
+            height: 44px;
+            margin-left: 38px;
+        }
+        button{
+            border: none;
+            background-color: white;
+            color: green;
+        }
+    }
+}
+.section3{
+    background-image: url(./Rectangle\ 96.png);
+    width: 1920px;
+    height: 850px;
+    text-align: center;
+    p{
+        width: 831px;
+        height: 111px;
+        color: #FFF;
+        margin-left: 551px;
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: 0.34px;
+    }
+    .main{
+        border-radius: 10px;
+        margin-left: 318px;
+        width: 1286px;
+        height: 449px;
+        background-color: white;
+        img{
+            
+        }
+    }
+}
+.section8{
+    background-image: url(./Map.png);
+    width: 1920px;
+    height: 717px;
+}
+footer{
+    width: 1920px;
+    height: 717px;
+    .main{
+        width: 1249px;
+        height: 477px;
+        margin-left: 335px;
+        margin-top: 100px;
+        body{
+            margin-top: -150px;
+        }
+        hr{
+            margin-top: 42px;
+            height: 3px;
+            background-color: grey;
+            margin-bottom: -150px;
+        }
+    }
+    .nav{
+        display: flex;
+        div{
+            
+        }
+        .facebook{
+            margin-left: 690px;
+            margin-right: 22px;
+        }
+        .insta{
+            margin-right: 22px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
